@@ -1,0 +1,20 @@
+{
+  "name": "helpme-ios",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HelpMe! — app iOS (Capacitor) que abre https://vizinho-zezinho1.vercel.app",
+  "scripts": {
+    "sync": "cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0",
+    "@capacitor/splash-screen": "^7.0.0",
+    "@capacitor/status-bar": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "appId": "app.helpme.cliente",
+  "appName": "Help Me",
+  "webDir": "www",
+  "server": {
+    "url": "https://vizinho-zezinho1.vercel.app",
+    "allowNavigation": [
+      "vizinho-zezinho1.vercel.app",
+      "vizinho.vercel.app",
+      "viacep.com.br"
+    ]
+  },
+  "ios": {
+    "contentInset": "always"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "launchAutoHide": true,
+      "backgroundColor": "#0f5c46",
+      "showSpinner": false
+    }
+  }
+}
